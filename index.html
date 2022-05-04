@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Réalitée augmentée</title>
+	<link rel=stylesheet href="index/index.css"/>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+<div class="bigTitle">Réalité augmentée - Médiathèque de Conques sur Orbiel</div>
+<hr>
+Boite à outils
+<hr/>
+
+<table class="fancy"><tr>
+	<td><a href="basic.html"><img src="images/mark.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="https://ra.bozocinformatique.fr/AR.js-master/three.js/examples/marker-training/examples/generator.html">AR.js Marker Training</a>
+	<p>Pour générer les marqueurs ou déclancheurs.</p></td>
+</tr></table>
+<hr>
+Les dinosaures
+<hr/>
+
+<table class="fancy"><tr>
+	<td><a href="models.html"><img src="images/tyrex.jpeg" class="superImage" /></a></td>
+	<td class="tableText"><a href="models.html">Tyrex en 3D</a>
+	<p>Avec le  marqueur Hiro, un Tyrex en 3D au format gltf.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="scripting.html"><img src="index/dino-accueil.jpg" class="superImage" /></a></td>
+	<td class="tableText"><a href="scripting.html">MAXI DINO</a>
+	<p>16 dinosaures en réalitée augmentée : scan le QR code et découvre la fiche pédagogique. Scan le marqueur et découvre le dinosaure en réalité augmentée</p>
+	<p><a href="https://view.genial.ly/62669c304f486f0019b434ec/interactive-content-maxi-dino-escape-game">Escape Game VERSION 1</a><span>   |   </span> <a href="https://view.genial.ly/6269bf0fa2c9c40013954115/interactive-content-maxi-dino-2">Escape Game VERSION 2</a></p>
+	</td>
+</tr></table>
+<hr>
+Le système solaire
+<hr/>
+
+<table class="fancy"><tr>
+	<td><a href="basic.html"><img src="images/solar-sys.jpg" class="superImage" /></a></td>
+	<td class="tableText"><a href="sysol.html">Les planètes à la bonne place</a>
+	<p>Avec la réalité augmentée, un marqueur par planète ... il ne reste plus qu'à disposer les planètes à la bonne place.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="basic.html"><img src="index/basic.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="basic.html">Hello, AR World!</a>
+	<p>A basic scene that places plain and textured shapes on markers (kanji, barcodes 0/1/2).</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="cubemap.html"><img src="index/cubemap.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="cubemap.html">Multi-Textured Cube</a>
+	<p>A cube with different images on each side, attached to a marker. <br/>Uses the aframe-multisrc component.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="animation.html"><img src="index/animation.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="animation.html">Animation</a>
+	<p>Animating (rotating) a globe attached to a marker, using the built-in animation component.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="text.html"><img src="index/text.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="text.html">Text (2D and 3D)</a>
+	<p>Attaching text to the kanji and hiro markers.<br/>
+	3D text uses the aframe-text-geometry component.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="particles.html"><img src="index/particles.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="particles.html">Particle Effects</a>
+	<p>Creating a particle system effect, attached to a marker. 
+		<br/>Uses the aframe-particle system component.</p></td>
+</tr></table>
+
+
+
+<table class="fancy"><tr>
+	<td><a href="canvas.html"><img src="index/canvas.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="canvas.html">Canvas Textures</a>
+	<p>Using an HTML canvas as the texture for a cube; creating an animation ("bouncing block") on the canvas and updating the cube texture. </p></td>
+	
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="detection.html"><img src="index/detection.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="detection.html">Detection</a>
+	<p>A cube is attached to a kanji marker. Red, yellow, and blue squares are attached to barcode markers 0, 1, and 2. 
+	The color of the cube changes depending on which combination of the markers is visible.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="follower.html"><img src="index/follower.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="follower.html">Persistence and Following </a>
+	<p>A green square is attached to a marker. If the marker is no longer visible, the square turns red and remains in the last known
+	position of the marker. If the marker then becomes visible again, the square turns green and moves (lerps) to the new position.</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="line.html"><img src="index/line.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="line.html">Line between two markers</a>
+	<p>Drawing a line between the centers of barcode markers 0 and 1. (Updates line geometry vertices.)</p></td>
+</tr></table>
+
+<table class="fancy"><tr>
+	<td><a href="line2.html"><img src="index/cylinder.png" class="superImage" /></a></td>
+	<td class="tableText"><a href="line2.html">Cylinder between two markers</a>
+	<p>Since lines can be difficult to see, drawing spheres at the centers of barcode markers 0 and 1, and creating a cylinder between the them. (Reorients and rescales the cylinder depending on the distance between the markers.)</p></td>
+</tr></table>
+
+<!--
+<table class="fancy"><tr>
+	<td><img src="index/IMAGE-NAME.png" class="superImage" /></td>
+	<td class="tableText"><a href="FILE.html">TITLE</a>
+	<p>DESCRIPTION</p></td>
+</tr></table>
+-->
+
+</body>
+</html>
